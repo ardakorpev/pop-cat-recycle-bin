@@ -85,7 +85,7 @@ Or simply delete the registry key path shown in the script output.
 ## 📸 Screenshots
 
 ### Before
-![Standard Recycle Bin](https://user-images.githubusercontent.com/placeholder/before.png)
+![Standard Recycle Bin](https://github.com/asifahamed11/pop-cat-recycle-bin/blob/main/screenshots/before.png)
 
 ### After
 | Empty Bin (Hungry Cat) | Full Bin (Satisfied Cat) |
@@ -116,6 +116,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Give a ⭐ if this project made you smile! Share it with friends who love desktop customisation.
 
+--
 
 **Made with 💖 and lots of ☕ for the desktop customization community**
 
