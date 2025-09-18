@@ -118,7 +118,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Give a ⭐ if this project made you smile! Share it with friends who love desktop customisation.
 
---
 
 **Made with 💖 and lots of ☕ for the desktop customization community**
 
