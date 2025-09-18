@@ -48,7 +48,7 @@ Your Recycle Bin becomes a Pop Cat that **literally eats your files**:
 
 **Icons not showing?** Press F5 or restart your computer  
 **Script won't run?** Right-click → "Run as administrator"  
-**Want original icons back?** Delete this registry key: `HKEY_CURRENT_USER\...\{645FF...}\DefaultIcon`
+**Want original icons back?** Delete this registry key: `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon`
 
 ## 💡 Fun Fact
 
