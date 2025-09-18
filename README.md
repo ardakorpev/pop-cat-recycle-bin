@@ -85,7 +85,7 @@ Or simply delete the registry key path shown in the script output.
 ## 📸 Screenshots
 
 ### Before
-![Standard Recycle Bin](https://github.com/asifahamed11/pop-cat-recycle-bin/blob/main/screenshots/before.png)
+<img src="https://github.com/asifahamed11/pop-cat-recycle-bin/blob/main/screenshots/before.png" alt="Standard Recycle Bin" width="50"/>
 
 ### After
 | Empty Bin (Hungry Cat) | Full Bin (Satisfied Cat) |
