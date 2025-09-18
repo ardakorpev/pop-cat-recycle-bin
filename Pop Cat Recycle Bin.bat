@@ -73,6 +73,32 @@ echo   - Full Recycle Bin = Closed Cat Mouth
 echo.
 pause
 
+echo Creating permanent icon storage...
+set "safeDir=C:\Icons\PopCat"
+if not exist "%safeDir%" (
+    mkdir "%safeDir%" 2>nul
+    if !errorLevel! equ 0 (
+        echo [OK] Created safe directory: %safeDir%
+    ) else (
+        echo [WARN] Could not create C:\Icons\PopCat, using current location
+        set "safeDir=%scriptDir%"
+    )
+) else (
+    echo [OK] Safe directory already exists: %safeDir%
+)
+
+echo Copying icons to safe location...
+copy "!closedIcon!" "%safeDir%\" >nul 2>&1
+copy "!openIcon!" "%safeDir%\" >nul 2>&1
+
+REM Update icon paths to safe location
+for %%f in ("!closedIcon!") do set "closedIconName=%%~nxf"
+for %%f in ("!openIcon!") do set "openIconName=%%~nxf"
+set "closedIcon=%safeDir%\!closedIconName!"
+set "openIcon=%safeDir%\!openIconName!"
+
+echo [OK] Icons safely stored in: %safeDir%
+echo.
 echo Applying Pop Cat icons to Recycle Bin...
 echo.
 
@@ -82,25 +108,25 @@ set "regkey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer
 REM Set default icon (closed mouth)
 reg add "%regkey%" /ve /t REG_EXPAND_SZ /d "!closedIcon!,0" /f >nul 2>&1
 if !errorLevel! equ 0 (
-    echo ✓ Default icon set to closed mouth
+    echo [OK] Default icon set to closed mouth
 ) else (
-    echo ✗ Failed to set default icon
+    echo [FAIL] Failed to set default icon
 )
 
 REM Set empty recycle bin icon (open mouth - cat is hungry/empty)
 reg add "%regkey%" /v "empty" /t REG_EXPAND_SZ /d "!openIcon!,0" /f >nul 2>&1
 if !errorLevel! equ 0 (
-    echo ✓ Empty bin icon set to open mouth
+    echo [OK] Empty bin icon set to open mouth
 ) else (
-    echo ✗ Failed to set empty icon
+    echo [FAIL] Failed to set empty icon
 )
 
 REM Set full recycle bin icon (closed mouth - cat is satisfied/full)
 reg add "%regkey%" /v "full" /t REG_EXPAND_SZ /d "!closedIcon!,0" /f >nul 2>&1
 if !errorLevel! equ 0 (
-    echo ✓ Full bin icon set to closed mouth
+    echo [OK] Full bin icon set to closed mouth
 ) else (
-    echo ✗ Failed to set full icon
+    echo [FAIL] Failed to set full icon
 )
 
 echo.
@@ -116,12 +142,12 @@ start explorer.exe
 
 echo.
 echo ============================================
-echo Setup Complete! 🐱
+echo Setup Complete! ^_^
 echo ============================================
 echo.
 echo Your Recycle Bin now shows:
-echo   📭 Empty Bin = Open Cat Mouth (hungry cat!)
-echo   📬 Full Bin = Closed Cat Mouth (satisfied cat!)
+echo   [EMPTY] Empty Bin = Open Cat Mouth (hungry cat!)
+echo   [FULL] Full Bin = Closed Cat Mouth (satisfied cat!)
 echo.
 echo If icons don't update immediately:
 echo   1. Press F5 to refresh desktop
@@ -130,6 +156,14 @@ echo   3. Or restart your computer
 echo.
 echo To revert: Delete registry key at
 echo %regkey%
+echo.
+echo WARNING: Keep your icon files safe!
+echo If you delete the .ico files, your Recycle Bin will show
+echo white paper icons. Always backup your icons or keep this
+echo folder in a permanent location like:
+echo   - C:\Icons\PopCat\
+echo   - Documents\Desktop Icons\
+echo   - Or any folder you won't accidentally delete
 echo.
 echo Press any key to exit...
 pause >nul
