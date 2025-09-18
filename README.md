@@ -2,7 +2,8 @@
 
 Transform your boring Windows Recycle Bin into an adorable Pop Cat that reacts to your trash! Watch as your desktop cat opens its mouth when hungry for files and closes it when satisfied with a full bin.
 
-![Pop Cat Demo](https://github.com/asifahamed11/pop-cat-recycle-bin/blob/main/screenshots/demo.gif)
+<img src="https://github.com/asifahamed11/pop-cat-recycle-bin/blob/main/screenshots/demo.gif" alt="Pop Cat Demo" width="100"/>
+
 
 ## 🎯 Features
 
@@ -85,12 +86,13 @@ Or simply delete the registry key path shown in the script output.
 ## 📸 Screenshots
 
 ### Before
-<img src="https://github.com/asifahamed11/pop-cat-recycle-bin/blob/main/screenshots/before.png" alt="Standard Recycle Bin" width="70"/>
+<img src="https://github.com/asifahamed11/pop-cat-recycle-bin/blob/main/screenshots/before.png" alt="Standard Recycle Bin" width="80"/>
 
 ### After
 | Empty Bin (Hungry Cat) | Full Bin (Satisfied Cat) |
 |-------------------------|---------------------------|
-| ![Empty](https://github.com/asifahamed11/pop-cat-recycle-bin/blob/main/screenshots/Pop%20cat%20open-1.png) | ![Full](https://github.com/asifahamed11/pop-cat-recycle-bin/blob/main/screenshots/Pop%20cat%20closed-1.png) |
+| <img src="https://github.com/asifahamed11/pop-cat-recycle-bin/blob/main/screenshots/Pop%20cat%20open-1.png" width="100"/> | <img src="https://github.com/asifahamed11/pop-cat-recycle-bin/blob/main/screenshots/Pop%20cat%20closed-1.png" width="100"/> |
+
 
 ## 🤝 Contributing
 
